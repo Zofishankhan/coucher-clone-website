@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.page1,.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin:0 15px;
+}
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+}
+.links a{
+    text-decoration: none;
+   
+}
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+}
+hr{
+    margin: 0 30px;
+}
+.header{
+    margin:50px;
+}
+
+.header h1{
+    font-size:10vh ;
+    text-transform: uppercase;
+}
+.hr2{
+    margin: 0 30px;
+    width: 40vw;
+}
+.links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 30px;
+    font-size: 15px;
+}
+.text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 40vw;
+    padding: 20px;
+    margin: 0 35px;
+    text-transform: uppercase;
+    font-size: 2.5vh;
+}
+.img_container img{
+    border-radius: 3vh;
+    position: relative;
+    top: 2vh;
+    right: 4vw;
+}
+.scroller{
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 70px;
+}
+.page2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.page2 .para1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 40vw;
+   padding: 90px;
+}
+.para1 p{
+    font-size: 4vh;
+    text-transform: capitalize;
+}
+.para2{
+    width: 30vw;
+    margin-left: 50px;
+}
+.div1,.div2,.div3{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5vh;
+    margin: 10px 45px;
+    text-align: center;
+    font-size: 1.25vw;
+    text-transform: uppercase;
+}.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right:60px;
+    padding: 20px;
+}
+
+.box1,.box2,.box3{
+    width: 15vw;
+    height: 25vh;
+    border-radius: 2vh;
+    margin: 10px;
+}
+.box1{
+    background-color:plum;
+    color: #000;
+}
+.box1 p,.box3 p{
+    padding: 20px;
+    font-size: 2.5vh;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box2{
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+    font-size: 4vh;
+    font-weight: 600;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    color: black;
+}
+.box3{
+    background-color: rgb(253, 216, 103);
+    color: black;
+}
+.box3 .num_div p{
+   font-size: 6vh;
+   
+}
+    
